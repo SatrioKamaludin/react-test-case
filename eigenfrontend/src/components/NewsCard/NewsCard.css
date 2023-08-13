@@ -1,0 +1,21 @@
+.news-card {
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.news-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.news-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.news-card p {
+  font-size: 1rem;
+}/*# sourceMappingURL=NewsCard.css.map */

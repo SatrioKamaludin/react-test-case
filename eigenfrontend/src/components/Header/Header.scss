@@ -1,0 +1,51 @@
+// src/components/Header/Header.scss
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #001529;
+  color: white;
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .search-category {
+    display: flex;
+    align-items: center;
+
+    .ant-tabs {
+      margin-right: 20px;
+    }
+
+    .ant-tabs-tab {
+      color: white;
+      font-size: 16px;
+      font-weight: normal;
+    }
+
+    .ant-tabs-tab-active {
+      color: #1890ff; /* Active tab text color */
+    }
+
+    .ant-tabs-ink-bar {
+      background-color: #1890ff; /* Active tab underline color */
+    }
+
+    .ant-select {
+      margin-right: 20px;
+    }
+
+    .ant-input {
+      width: 300px;
+    }
+  }
+}

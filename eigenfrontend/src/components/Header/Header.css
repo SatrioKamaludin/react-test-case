@@ -1,0 +1,42 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #001529;
+  color: white;
+}
+.header .title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.header .search-category {
+  display: flex;
+  align-items: center;
+}
+.header .search-category .ant-tabs {
+  margin-right: 20px;
+}
+.header .search-category .ant-tabs-tab {
+  color: white;
+  font-size: 16px;
+  font-weight: normal;
+}
+.header .search-category .ant-tabs-tab-active {
+  color: #1890ff; /* Active tab text color */
+}
+.header .search-category .ant-tabs-ink-bar {
+  background-color: #1890ff; /* Active tab underline color */
+}
+.header .search-category .ant-select {
+  margin-right: 20px;
+}
+.header .search-category .ant-input {
+  width: 300px;
+}/*# sourceMappingURL=Header.css.map */
