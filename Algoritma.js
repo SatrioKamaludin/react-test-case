@@ -46,4 +46,5 @@ function penguranganMatrix(matrix){
 
 console.log(reverse("NEGIE1"));
 console.log(longest("Saya sangat senang mengerjakan soal algoritma"));
+stringMatching(['xc', 'dz', 'bbb', 'dz'], ['bbb', 'ac', 'dz']  )
 console.log(penguranganMatrix([[1, 2, 0], [4, 5, 6], [7, 8, 9]]))
