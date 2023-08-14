@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "backup/NewsList.test.tsx", "backup/9. I GOT RATE LIMITED/Header.test.tsx"  ]
 }
